@@ -15,7 +15,21 @@ const btnVoltar = document.getElementById('voltar');
 
 // Função para atualizar o conteúdo da página
 function atualizarPagina() {
+    // Atualizar o conteúdo da página
     bookElement.textContent = paginas[paginaAtual];
+
+    // Mostrar ou esconder os botões conforme a página atual
+    if (paginaAtual === 0) {
+        btnVoltar.style.display = 'none'; // Esconde o botão "Voltar" na primeira página
+    } else {
+        btnVoltar.style.display = 'inline'; // Mostra o botão "Voltar" nas outras páginas
+    }
+
+    if (paginaAtual === paginas.length - 1) {
+        btnAvancar.style.display = 'none'; // Esconde o botão "Avançar" na última página
+    } else {
+        btnAvancar.style.display = 'inline'; // Mostra o botão "Avançar" nas outras páginas
+    }
 }
 
 // Adicionar eventos para os botões
