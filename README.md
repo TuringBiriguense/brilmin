@@ -1,3 +1,2 @@
-# Livro-Bioma-Destrui-o
+# O Homem e o Lobo Guará
 
-Em andamento, Livro para tarefa de Integradora
