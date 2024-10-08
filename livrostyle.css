@@ -20,10 +20,9 @@
 
 .book-box {
     display: flex;
-    background-image: url("https://www.institutoclaro.org.br/educacao/wp-content/uploads/sites/2/2013/11/Bioma.jpg");
+    background-image: url("http://d3nehc6yl9qzo4.cloudfront.net/img/original/1920x1080px_2.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 88vh;
+    background-size:cover ;
     justify-content: center;
     align-items: center;
 }
